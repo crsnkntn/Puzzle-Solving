@@ -8,7 +8,8 @@ I got a rotation puzzle from my Aunt for christmas. I asked her if she considere
 
 This was the puzzle:
 <div>
-<img src="rotation_puzzle.jpg" alt="Rotation Puzzle Image"></img>
+<img src="puzzle.jpg" alt="Rotation Puzzle Image"></img>
 </div>
 
-The goal is to get each column add up to 40. As you can surmise this is just a guess and check problem since the numbers are random. The only way to make the solve faster is to abandon an iteration when the sum is greater than 40. Not all numbers on each ring are shown at once, so this at least provided a challenge.
+The goal is to get each column add up to 40. From the starting position that I manually entered into the vectors in rotation_puzzle.cpp, the correct rotation order is 0, 6, 7, 6; these are counter-clockwise rotations.
+It was fun to model a physical object in code, especially when that object can be manipulated and solved.
